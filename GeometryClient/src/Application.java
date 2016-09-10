@@ -11,10 +11,11 @@ public class Application {
 		Client client = new Client();
 		JFrame frame = new JFrame("Geometry game");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(800, 600);
+		frame.setSize(800, 700);
 		frame.setResizable(false);
 		frame.add(client.getRenderEngine().getCamera(1), BorderLayout.LINE_START);
 		frame.add(client.getRenderEngine().getCamera(2), BorderLayout.LINE_END);
+		frame.add(client.getRenderEngine().getCamera(3), BorderLayout.PAGE_END);
 		frame.setVisible(true);
 		frame.setFocusable(true); // important call to allow listening to keys
 		frame.addKeyListener(client.getController());
