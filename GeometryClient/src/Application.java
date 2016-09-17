@@ -11,8 +11,6 @@ public class Application {
 		LoginWindow loginWindow = new LoginWindow();
 		SwingUtilities.invokeLater(loginWindow);
 		while (loginWindow.isLogButtClicked() == false) {
-			// System.out.println("logButtClicked " +
-			// loginWindow.isLogButtClicked());
 		}
 		Client client = new Client();
 		ClientWindow window = new ClientWindow(client);
