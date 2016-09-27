@@ -1,7 +1,7 @@
 import javax.swing.SwingUtilities;
 
 import my.games.geometry.game.Client;
-import my.games.geometry.game.ClientWindow;
+import my.games.geometry.ui.ClientWindow;
 
 public class Application {
 	private static final long serialVersionUID = 1L;
