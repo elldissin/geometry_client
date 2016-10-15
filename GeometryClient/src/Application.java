@@ -1,6 +1,6 @@
 import javax.swing.SwingUtilities;
 
-import my.games.geometry.game.Client;
+import my.games.geometry.game.engine.Client;
 import my.games.geometry.ui.ClientWindow;
 
 public class Application {
